@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_delete">Effacer les données</string>
+    <string name="displaydata">Représentation graphique </string>
+    <!-- gestion du texte de l'aide -->
+
+    <string name="help_text">\<b>CalorieBurner peut vous aider</b>\n\n\
+Que vous soyez sportif ou non, vous allez être transformé.
+Remplissez votre profil en cliquant sur l\'icône ajouter un profil .\n
+Choisissez parmi les trois options présentes devant vous: \n
+\n\n\<b> L\'option sport:</b>\n\n\
+Choisissez votre activité parmi une liste déroulante, démarrez le chronomètre et arrêtez quand vous le désirez.\n 
+ 
+\n\n\<b> L\'option diététique:</b>\n\n\
+
+Composez vos repas en sélectionnant vos aliments.De là, un bilan s\'affichera et vous aurez le choix de les éliminer 
+en faisant une activité physique. \n
+\n\n\<b> L\'option historique:</b>\n\n\
+
+Surveillez vos dépenses énergétiques en regardant votre historique, un affichage sous forme de graphique peut-être possible.</string>
+    <string name="about_copyright">&#169;2014 Albufera </string>
+    <string name="spinner_sport">Calorie Burner</string>
+    <string name="app_name">Calorie Burner</string>
+    <string name="action_settings">Menu principal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_go">Go</string>
+    <string name="action_save">Aide</string>
+    <string name="select_food_item">Sélectionnez vos aliments!</string>
+    <string name="title_activity_calories_summary"></string>
+    <string name="meal_summary">Mon repas en résumé</string>
+    <string name="sport_summary">Bilan de votre séance de sport</string>
+    <string name="title_activity_user_info">UserInfo</string>
+    <string name="calories_per_day">calories/day</string>
+    <string name="budget_per_day">per day</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_view_history">Mon historique</string>
+    <string name="title_activity_dietetique">Dietetique</string>
+    <string name="title_activity_menu_principal">Bienvenue</string>
+    <string name="title_activity_sport">Sport</string>
+    <string name="title_activity_help">Aide de l\'application</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_calories_sport">Bilan sportif</string>
+    <string name="title_activity_chronometre">Chronometre</string>
+    <string name="title_activity_chrono">Chrono</string>
+    <string name="title_activity_activites_sportive">Activites Sportives</string>
+    <string name="title_activity_activites_physique">Sport</string>
+    <string name="title_activity_activites_physiques_dietetique">Activites Sportives</string>
+    <string name="title_activity_help_dietetique">Aide</string>
+    <string name="title_activity_graph">Graphique</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_dietetique_physique"></string>
+    <string name="title_activity_load_user">Authentification</string>
+    <string name="title_activity_authentification">Authentification</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_mail">Envoyer un message</string>
+    <string name="title_activity_facebook_viewer">Bienvenue sur Facebook</string>
+
+</resources>

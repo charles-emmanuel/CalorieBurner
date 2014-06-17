@@ -1,0 +1,134 @@
+<resources>
+
+     <string-array name="sports">
+      <item>Aérobic</item>
+      <item>Aquagym</item>
+      <item>Arts martiaux</item>
+      <item>Aviron modéré</item>
+      <item>Badminton</item>
+      <item>Baseball</item>
+      <item>Basketball</item>
+      <item>Beach-volley</item>
+      <item>Billard</item>
+      <item>Bowling</item>
+      <item>Boxe</item>
+      <item>Bricolage</item>
+      <item>Canoë</item>
+      <item>Corde à sauter</item>
+      <item>Course à pied (10km/h)</item>
+      <item>Cuisiner</item>
+      <item>Danse</item>
+      <item>Equitation</item>
+      <item>Escalade</item>
+      <item>Escrime</item>
+      <item>Faire l\'amour</item>
+      <item>Faire le ménage</item>
+      <item>Fléchettes</item>
+      <item>Football</item>
+      <item>Frisbee</item>
+      <item>Golf</item>
+      <item>Gymnastique générale</item>
+      <item>Handball</item>
+      <item>Jogging</item>
+      <item>Jouer d\'un instrument</item>
+      <item>Karting</item>
+      <item>Kayak</item>
+      <item>Marche</item>
+      <item>Monter les escaliers</item>
+      <item>Musculation</item>
+      <item>Natation</item>
+      <item>Patinage</item>
+      <item>Pêche</item>
+      <item>Plongée</item>
+      <item>Randonnée</item>
+      <item>Raquettes (montagne)</item>
+      <item>Roller</item>
+      <item>Rugby</item>
+      <item>Skateboard</item>
+      <item>Ski</item>
+      <item>Squash</item>
+      <item>Step</item>
+      <item>Stretching Yoga</item>
+      <item>Surf</item>
+      <item>Tai-chi</item>
+      <item>Tennis</item>
+      <item>Tennis de table</item>
+      <item>Tir à l\'arc</item>
+      <item>Tondre la pelouse</item>
+      <item>Vélo</item>
+      <item>Voile</item>
+      <item>Volleyball</item>
+      <item>VTT</item>
+      <item>Zumba</item>
+    
+  </string-array>
+
+  <array name="met">
+    <item>5</item>
+    <item>4</item>
+    <item>10</item>
+    <item>8</item>
+    <item>7</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>3</item>
+    <item>3</item>
+    <item>9</item>
+    <item>5</item>
+    <item>7</item>
+    <item>10</item>
+    <item>11</item>
+    <item>3</item>
+    <item>3</item>
+    <item>4</item>
+    <item>11</item>
+    <item>7</item>
+    <item>2</item>
+    <item>4</item>
+    <item>3</item>
+    <item>8</item>
+    <item>3</item>
+    <item>4</item>
+    <item>4</item>
+    <item>8</item>
+    <item>7</item>
+    <item>3</item>
+    <item>8</item>
+    <item>5</item>
+    <item>5</item>
+    <item>15</item>
+    <item>7</item>
+    <item>8</item>
+    <item>6</item>
+    <item>4</item>
+    <item>7</item>
+    <item>6</item>
+    <item>8</item>
+    <item>7</item>
+    <item>10</item>
+    <item>5</item>
+    <item>7</item>
+    <item>12</item>
+    <item>7</item>
+    <item>4</item>
+    <item>3</item>
+    <item>4</item>
+    <item>8</item>
+    <item>7</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>3</item>
+    <item>8</item>
+    <item>9</item>
+    <item>8</item>
+    
+   
+  </array>
+  
+  
+  
+  
+  
+</resources>

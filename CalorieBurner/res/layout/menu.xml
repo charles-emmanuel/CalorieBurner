@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<item android:id="@+id/option" 
+      android:title="Options"
+      android:icon="@drawable/sport">
+ 
+     <menu android:id="@+id/sousmenu">
+	 <item android:id="@+id/favoris"
+	       android:title="Profils" 
+	        	/>
+ 
+	 <item android:id="@+id/stats"
+	       android:title="Statistiques"  />
+     </menu>
+</item>
+ 
+<item android:id="@+id/quitter" 
+     android:title="Quitter"
+     android:icon="@drawable/sport" />
+
+<item android:id="@+id/help" 
+     android:title="Aide"
+     android:icon="@drawable/sport" />
+
+
+
+
+</menu>

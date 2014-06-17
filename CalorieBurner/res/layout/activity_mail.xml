@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical"
+  android:background="@color/vertmail">
+
+<TextView android:id="@+id/TextView02" 
+    android:layout_height="wrap_content" 
+    android:text="contact@calorieburner.com"
+     android:textSize="18dip" 
+     android:textColor="@color/bleu"
+     android:textStyle="italic" 
+     android:layout_width="fill_parent" 
+     android:gravity="center_horizontal">
+    
+</TextView>
+
+<EditText 
+    android:layout_height="wrap_content"
+     android:id="@+id/etSujet"
+      android:hint="Sujet du mail"
+      android:layout_width="fill_parent">
+    
+</EditText>
+
+<EditText 
+    android:layout_height="wrap_content"
+     android:id="@+id/etMsg" 
+     android:layout_width="fill_parent"
+      android:hint="Composez votre mail"
+      android:height="150dip">
+    
+</EditText>
+<LinearLayout 
+    android:id="@+id/LinearLayout01"
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent" 
+     android:gravity="center_horizontal">
+     <ImageButton 
+         android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="@drawable/mail"
+            android:id="@+id/ibSend"></ImageButton>
+</LinearLayout>
+</LinearLayout>

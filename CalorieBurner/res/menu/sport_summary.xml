@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+  
+    <item
+        android:id="@+id/resetChrono"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Remise à zéro"/> 
+    
+    <item
+        android:id="@+id/getTime"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Récup heure"/> 
+    
+   
+     <item
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:showAsAction="ifRoom"
+        
+        />
+    
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_menu_save"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_save"
+        />
+
+    
+   
+    
+    
+</menu>

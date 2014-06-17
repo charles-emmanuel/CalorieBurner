@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+        <item
+        android:id="@+id/sharedata"
+        android:showAsAction="always"
+       	android:icon="@drawable/fb"
+        />
+        
+        
+        <item
+        android:id="@+id/savedata"
+        android:showAsAction="always"
+       	android:icon="@drawable/ic_menu_save"
+        />
+    
+    
+        <item
+        android:id="@+id/sportdietetique"
+        android:showAsAction="always"
+       	android:icon="@drawable/sport"
+        />
+        
+      
+        
+            
+       
+                
+        
+   
+</menu>

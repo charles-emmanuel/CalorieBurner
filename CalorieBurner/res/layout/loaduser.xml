@@ -1,0 +1,86 @@
+
+<!-- définition de la fenêtre de récupération des données poids et nom -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jaunepaille"
+  
+  
+  
+  
+  
+     
+    >
+
+    <TextView 
+        
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Authentification"
+   	 android:id="@+id/authentif"
+  	 android:textColor="@color/rouge"
+        
+        
+        
+        
+        />
+
+    
+    
+    
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/name"
+     android:layout_below="@id/authentif"
+   android:hint="Entrez votre nom"
+    android:inputType="text"
+    
+   
+   />
+
+
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/name"
+    android:id="@+id/poids"
+   android:hint="Entrez votre poids"
+   android:inputType="number"
+   
+   />
+
+
+<CheckBox
+	        android:id="@+id/saveLoginCheckBox"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/poids"
+	        android:text="Retenir ?"
+	        android:textColor="#FFF" />
+
+
+
+
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:text="Connexion"
+     android:layout_below="@+id/saveLoginCheckBox"
+  	android:id="@+id/loginButton"
+  	android:textColor="@color/white"
+	android:background="@color/marron2"
+	android:padding="10dp"
+	android:layout_gravity="center_vertical|center_horizontal"
+/>
+
+
+
+
+
+
+
+</RelativeLayout>

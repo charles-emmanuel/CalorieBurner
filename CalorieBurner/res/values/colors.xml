@@ -1,0 +1,25 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0084E4</color>
+    <color name="marron">#F46B02</color>
+    <color name="violet">#AA66CC</color>
+	<color name="orange">#FF8800</color>
+	<color name="bleu">#1084a5</color>
+	<color name="vert">#4bdf63</color>
+	<color name="vertspinner">#28ca16</color>
+	<color name="jaunepaille">#ffc04c</color>
+	<color name="barreseparation">#ffa500</color>
+	<color name="rouge">#ea1111</color>
+	<color name="marron2">#cc8400</color>	
+	<color name="vert1">#18d40c</color>
+	<color name="bleuclair">#81adff</color>			
+	<color name="beige">#fedfa5</color>	
+	<color name="bleurepas">#33B5E5</color>	
+	<color name="vertmail">#94ea9b</color>	
+	<color name="orangesport">#F4B700</color>
+								
+	
+	
+	
+
+</resources>
