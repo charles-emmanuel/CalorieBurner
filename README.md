@@ -10,7 +10,9 @@ a pour but de calculer le nombre de calories consommées lors d'un repas, de dé
 à leur élimination en fonction d'un sport déterminé et inversement quand on fait du sport on obtient le nombre de 
 calories éliminées. De plus cette application permet un suivi des résultats .
 <br> Enjoy :)
-
+<span style="color:
+#fb4141
+">texte à colorer</span>
 Instructions:
 =============
 1. Installez au préalable tous les derniers google SDK.
