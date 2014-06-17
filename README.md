@@ -1,5 +1,8 @@
 <p style="text-align:center">CalorieBurner</p>
-=============
+
+
+
+
 Introductions:
 =============
 Ce projet developpé sous android 4.2 dans le cadre d'un projet informatique de 3ème année d'école d'ingénieurs, 
