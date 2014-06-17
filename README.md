@@ -13,7 +13,9 @@ calories éliminées. De plus cette application permet un suivi des résultats .
 
 Instructions:
 =============
-1. Compilez le programme en utilisant eclipse (tuto sur le net)
-2. Installez au préalable tous les derniers SDK
+1. Installez au préalable tous les derniers SDK.
+2. Importez le projet en utilisant eclipse.
+3. Compilez le programme .
+4. Installez-le soit sur un émulateur, soit un téléphone compatible android.
 
 Charles-Emmanuel Albufera (teamcalorieburner[at]gmail.com)
