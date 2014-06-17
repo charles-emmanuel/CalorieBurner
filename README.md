@@ -9,4 +9,4 @@ Enjoy :)
 ->Compilez le programme en utilisant eclipse (tuto sur le net)
 ->Installez au préalable tous les derniers SDK
 
-Charles-Emmanuel Albufera
+Charles-Emmanuel Albufera (teamcalorieburner[at]gmail.com)
