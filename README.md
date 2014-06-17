@@ -12,7 +12,7 @@ calories éliminées. De plus cette application permet un suivi des résultats .
 <br> Enjoy :)
 
 <span style="color:#fb4141">texte à colorer</span>
-
+<p style="text-align:center";>partie du texte à "centrer"</p>
 Instructions:
 =============
 1. Installez au préalable tous les derniers google SDK.
