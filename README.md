@@ -1,4 +1,4 @@
-<center> CalorieBurner </center>
+<p style="text-align:center">CalorieBurner</p>
 =============
 Introductions:
 =============
