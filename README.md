@@ -1,5 +1,5 @@
-<p style="text-align:center">CalorieBurner</p>
-
+CalorieBurner
+============
 
 
 
@@ -13,7 +13,7 @@ calories éliminées. De plus cette application permet un suivi des résultats .
 
 Instructions:
 =============
-->Compilez le programme en utilisant eclipse (tuto sur le net)
-->Installez au préalable tous les derniers SDK
-![Zozor](https://www.dropbox.com/s/jnfykdm0ktzsps2/Screen.png)
+1. Compilez le programme en utilisant eclipse (tuto sur le net)
+2. Installez au préalable tous les derniers SDK
+
 Charles-Emmanuel Albufera (teamcalorieburner[at]gmail.com)
