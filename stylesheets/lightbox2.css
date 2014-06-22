@@ -1,0 +1,185 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menu/lightbox2.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* common styling */
+
+a {
+color:#000;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+a:visited {
+color:#111;
+}
+
+/* slides styling */
+
+.photo {
+width:720px; 
+text-align:left; 
+position:relative;
+}
+
+.photo ul.topic {
+padding:0; 
+margin:0; 
+list-style:none; 
+width:720px; 
+height:auto; 
+position:relative; 
+z-index:10;}
+
+.photo ul.topic li {
+display:block; 
+width:240px; 
+height:31px; 
+float:left;
+}
+
+.photo ul.topic li a.set {
+display:block; 
+font-size:11px; 
+width:239px; 
+height:30px; 
+text-align:center; 
+line-height:30px; 
+color:#000; 
+text-decoration:none; 
+border:1px solid #fff; 
+border-width:1px 1px 0 0; 
+background:#ccc; 
+font-family:verdana, arial, sans-serif;
+}
+
+.photo ul.topic li a ul, .photo ul.topic li ul 
+{
+display:none;
+}
+
+.photo ul.topic li a:hover, .photo ul.topic li:hover a
+{
+color:#fff; 
+background:#aaa;
+}
+
+.photo ul.topic li a:hover ul, .photo ul.topic li:hover ul 
+{
+display:block; 
+position:absolute; 
+left:0; 
+top:31px; 
+list-style:none; 
+padding:0; 
+margin:0; 
+height:375px; 
+background:#ddd url(lbox/close.gif) no-repeat right top; 
+width:479px; 
+padding:70px 100px; 
+border:20px solid #aaa;}
+
+.photo ul.topic li a:hover ul li, .photo ul.topic li:hover ul li 
+{
+display:inline; 
+width:112px; 
+height:87px; 
+float:left; 
+border:1px solid #fff; 
+margin:1px;
+}
+
+.photo ul.topic li a:hover ul li a, .photo ul.topic li:hover ul li a 
+{
+display:block; 
+width:110px; 
+height:85px; 
+cursor:default; 
+float:left; 
+text-decoration:none; 
+background:#444; 
+border:1px solid #888;
+}
+
+.photo ul.topic li a:hover ul li a img, .photo ul.topic li:hover ul li a img 
+{
+display:block; 
+width:100px; 
+height:75px; 
+border:5px solid #eee;
+}
+
+.photo ul.topic li a:hover ul li a img.large, .photo ul.topic li:hover ul li a img.large 
+{
+position:absolute; 
+display:block; 
+width:0; 
+height:0; 
+overflow:hidden; 
+border:0;
+}
+
+.photo ul.topic li a:hover ul li a:hover, .photo ul.topic li:hover ul li a:hover 
+{
+white-space:normal; 
+position:relative;
+}
+
+.photo ul.topic li a:hover ul li a:hover img, .photo ul.topic li:hover ul li a:hover img 
+{
+position:absolute; 
+left:-50px; 
+top:-32px; 
+width:200px; 
+height:150px; 
+border-color:#fff;
+}
+
+.photo ul.topic li a:hover ul li a:hover img.large, .photo ul.topic li:hover ul li a:hover img.large 
+{
+position:absolute; 
+display:block; 
+width:0; 
+height:0; 
+overflow:hidden; 
+border:0;
+}
+
+.photo ul.topic li:hover ul li a:focus, .photo ul.topic li:hover ul li a:active,.photo ul.topic li a:hover ul li a:active 
+{
+position:static; 
+outline:0;
+}
+
+.photo ul.topic li:hover ul li a:focus img, .photo ul.topic li:hover ul li a:active img, .photo ul.topic li a:hover ul li a:active img 
+{
+position:absolute; 
+left:200px; top:170px; 
+width:200px; 
+height:150px; 
+padding:0; 
+background:#000; 
+border:0; 
+z-index:5;
+}
+
+.photo ul.topic li:hover ul li a:focus img.large, .photo ul.topic li:hover ul li a:active img.large, .photo ul.topic li a:hover ul li a:active img.large 
+{
+position:absolute; 
+left:15px; 
+top:24px; 
+width:640px; 
+height:480px; 
+padding:0; 
+background:#000; 
+border:4px solid #fff; 
+z-index:10;
+}
+

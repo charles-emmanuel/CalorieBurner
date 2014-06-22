@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.calorieburner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dietetique.FoodItemActivity"
+            android:icon="@drawable/chef"
+            android:label="@string/select_food_item"
+            android:parentActivityName="mainApplication.MenuPrincipal" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.calorieburner.MenuPrincipal" />
+        </activity>
+        <activity
+            android:name="dietetique.CaloriesSummaryActivity"
+            android:icon="@drawable/chef"
+            android:label="@string/title_activity_calories_summary"
+            android:parentActivityName="dietetique.FoodItemActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.calorieburner.FoodItemActivity" />
+        </activity>
+        <activity
+            android:name="com.calorieburner.UserInfoActivity"
+            android:label="@string/title_activity_user_info"
+            android:parentActivityName="com.calorieburner.RestaurantActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.calorieburner.RestaurantActivity" />
+        </activity>
+        <activity
+            android:name="mainApplication.ViewHistoryActivity"
+            android:icon="@drawable/analytics"
+            android:label="@string/title_activity_view_history"
+            android:parentActivityName="com.calorieburner.RestaurantActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.calorieburner.RestaurantActivity" />
+        </activity>
+        <activity
+            android:name="dietetique.Dietetique"
+            android:icon="@drawable/chef"
+            android:label="@string/title_activity_dietetique" >
+        </activity>
+        <activity
+            android:name="mainApplication.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal" >
+        </activity>
+        <activity
+            android:name="sport.Sport"
+            android:icon="@drawable/sport"
+            android:label="@string/title_activity_sport" >
+        </activity>
+        <activity
+            android:name="sport.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.calorieburner.TestActi"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="gestionAuthentification.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sport.CaloriesSportActivity"
+            android:icon="@drawable/sport"
+            android:label="@string/title_activity_calories_sport" >
+        </activity>
+        <activity
+            android:name="sport.Chrono"
+            android:icon="@drawable/sport"
+            android:label="@string/title_activity_chrono" >
+        </activity>
+        <activity
+            android:name="sport.ActivitesPhysiques"
+            android:icon="@drawable/sport"
+            android:label="@string/title_activity_activites_physique" >
+        </activity>
+        <activity
+            android:name="mainApplication.Help"
+            android:label="@string/title_activity_help"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="dietetique.HelpDietetique"
+            android:label="@string/title_activity_help_dietetique"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="mainApplication.Graph"
+            android:label="@string/title_activity_graph"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="dietetique.DietetiquePhysique"
+            android:icon="@drawable/sport"
+            android:label="@string/title_activity_dietetique_physique" >
+        </activity>
+        <activity
+            android:name="gestionAuthentification.LoadUser"
+            android:label="@string/title_activity_load_user"
+            android:theme="@android:style/Theme.Light.Panel" >
+        </activity>
+        <activity
+            android:name="mainApplication.Email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name="mainApplication.Mail"
+            android:label="@string/title_activity_mail"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="mainApplication.FacebookViewer"
+              android:icon="@drawable/fb"
+            android:label="@string/title_activity_facebook_viewer" >
+        </activity>
+    </application>
+
+</manifest>
