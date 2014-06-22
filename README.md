@@ -12,7 +12,7 @@ calories éliminées.
 <br>De plus cette application permet un suivi des résultats .
 <br> Enjoy :)
 
-![My image](https://raw.githubusercontent.com/charles-emmanuel/CalorieBurner/master/Screenshots/vueensemble.png)
+![Vue d'ensemble de l'application](https://raw.githubusercontent.com/charles-emmanuel/CalorieBurner/master/Screenshots/vueensemble.png)
 Instructions:
 =============
 1. Installez au préalable tous les derniers google SDK.
